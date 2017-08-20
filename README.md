@@ -1,0 +1,1 @@
+Personal website built in React & to try out new technologies/techniques
