@@ -1,9 +1,15 @@
 var React = require('react');
-
+var Skills = require('./Skills');
+var ExperienceList = require('./ExperienceList');
 
 class Resume extends React.Component {
   render() {
-    return (<div>hello world</div>)
+    return (
+      <div className='resume'>
+        <Skills/>
+        <ExperienceList/>
+      </div>
+    )
   }
 }
 
