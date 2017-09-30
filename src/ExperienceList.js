@@ -21,6 +21,7 @@ class ExperienceList extends React.Component {
     return (
       <div className='resume_section'>
         <h2 className='resume_title'>Experience</h2>
+        <p><a href='/resume-pdf'>See more details</a> or <a href='https://github.com/SStilson/sstilson.github.io/blob/master/resume.pdf'>Download</a></p>
         <Experience
           experienceTitle={experienceOne.title}
           experienceDates={experienceOne.dates}
@@ -32,6 +33,7 @@ class ExperienceList extends React.Component {
         <Experience experienceTitle={experienceThree.title}
           experienceDates={experienceThree.dates}
           experienceDescription={experienceThree.description}/>
+
       </div>
     )
   }

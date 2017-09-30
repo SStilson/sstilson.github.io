@@ -7,6 +7,7 @@ var Nav = require('./Nav');
 var Introduction = require('./Introduction');
 var Resume = require('./Resume');
 var Footer = require('./Footer');
+var ResumePDF = require('./ResumePDF');
 
 require ('./App.css');
 
@@ -19,6 +20,7 @@ class App extends React.Component {
             <Switch>
               <Route exact path='/' component={Introduction} />
               <Route exact path='/resume' component={Resume} />
+              <Route exact path='/resume-pdf' component={ResumePDF} />
               <Route render={function() {
                 return <p>Not Found</p>
               }} />

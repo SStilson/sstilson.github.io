@@ -71,3 +71,11 @@ li {
 .experience-dates {
   font-style: italic;
 }
+
+
+.resume-pdf {
+  margin-left: 23%;
+  margin-right: 23%;
+  margin-top: 5%;
+  text-align: center;
+}
